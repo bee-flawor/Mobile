@@ -1,0 +1,48 @@
+.cabeçalho
+/*ponto de partida do HTML, espaço para declaração globais a serem utilizada no trabalho inteiro*/
+
+
+:root{
+--cor-de-fundo: #b3769e;
+--branco: #FFFFFF;
+--laranja: #EB9800;
+--azul-degradee: linear-gradiente(97.54deg,#002f52 35.40%,#326589 165.37%);
+--preto: #000000;
+
+}
+/*formata o corpo da página*/
+body{
+    background-color: var(--cor-de-fundo);
+
+}
+.cabeçalho{
+    background-color: hsl(204, 11%, 53%);
+
+:root{
+--cor-de-fundo: #b3769e;
+--branco: #FFFFFF;
+--laranja: #EB9800;
+--azul-degradee: linear-gradiente(97.54deg,#002f52 35.40%,#326589 165.37%);
+--preto: #000000;
+}
+.container{
+    display: flax;
+    align-items: center;
+}
+.lista_menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: auto;
+
+
+}
+
+.cabeçalho__menu-hamburger{
+    width: 24px;
+    height: 24px;
+    background-image: url("/menu_opcoes.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
